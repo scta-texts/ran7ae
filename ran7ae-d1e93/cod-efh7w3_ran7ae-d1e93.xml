@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 2 [Leipzig 419 Transcription]</title>
+        <author ref="#Anonymous">Anonymous</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev-master">
+          <title>Liber 1, Prologus, Quaestio 2  [Leipzig 419 Transcription]</title>
+          <date when="2018-10-28">October 28, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-efh7w3">Leipzig University, ms. 419</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#L" n="1-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ran7ae-d1e93">
+        <head xml:id="ran7ae-d1e93-Hd1e95">Liber 1, Prologus Quaestio 1 [Leipzig 419 Transcription]</head>
+        <p xml:id="ran7ae-d1e93-d1e98">
+          <lb ed="#L"/>Quaeritur utrum theologia sit scientia 
+        </p>
+        <p xml:id="ran7ae-d1e93-d1e103">
+          Videtur quod sic nisi enim est illa<lb ed="#L"/>tio 
+          neccessaria ibi est scientia sed in theologia est illatio necessaria 
+          <lb ed="#L"/>sicut sequitur de neccessitate quod si christus fuit mortuus quod tunc non fuerit homo 
+          <lb ed="#L"/>vel quod si spiritus sanctus <choice><orig>distingatur</orig><reg>distinguatur</reg></choice> a filio quod procedat ab eo vel quod si deus 
+          <lb ed="#L"/>est omnipotens quod sit causa omnium ergo theologia est scientia 
+        </p>
+        <p xml:id="ran7ae-d1e93-d1e120">
+          <pc type="#pilcrow"/> Item sicut ignoran<lb ed="#L"/>tia 
+          nostra non tollit veritate scientiarum sicut <del rend="expunctuation">non tollit</del> si ignoremus 
+          <lb ed="#L"/>logicalis gramaticam propter hoc non desivunt esse scientiae sic etiam videtur 
+          <lb ed="#L"/>quod ex hoc quod ista quae traduntur in theologia non apparent ubi hic <del rend="expunctuation">e</del> tamen de 
+          <lb ed="#L"/>se sunt manifesta et maxime scibilia quod propter hoc theologia nisi desinat
+          <pb ed="#L" n="2-r"/>esse scientia maxime cum sit scientia apud deum et beatos sicut enim propter 
+          <lb ed="#L"/>nostrum <sic>afirmare</sic> vel negare nihil mutatur in <unclear>te</unclear> secundum <name>philosophum</name> sic etiam 
+          <lb ed="#L"/>videtur quod propter nostrum ignorare nihil mutetur de veritate scientiae <pc type="#pilcrow"/> the<lb ed="#L"/>ologiae
+        </p>
+        <p xml:id="ran7ae-d1e93-d1e160">
+          Item quod est sapientia est scientia ad quam se habet sapientia per ad<lb ed="#L"/>ditionem 
+          et <seg type="corrected">suppositum <!-- something deleted at end of word but unclear --></seg> sed theologia est sapientia secundum ratio proverbi ix <quote xml:id="ran7ae-d1e93-Qd1e168" ana="#prov9_1">sa<lb ed="#L"/>pientia 
+          aedificavit sibi domum</quote> et <unclear>ecc</unclear> xliiii <quote xml:id="ran7ae-d1e93-Qd1e176" ana="#sir44_15">sapientiam sanctorum <!-- possibly sirach 44:15; match is still a little unclear "--></quote> etc 
+          <lb ed="#L"/>est etiam scientia secundum id <ref xml:id="ran7ae-d1e93-Rd1e183"><title>sapientiae</title> x</ref> <quote xml:id="ran7ae-d1e93-Qd1e188" ana="#sap10_10">dedit illi scientia sanctorum</quote> ergo theologia est scientia 
+        </p>
+        <p xml:id="ran7ae-d1e93-d1e193">
+          <lb ed="#L"/><pc type="#pilcrow"/> Item dicitur <ref xml:id="ran7ae-d1e93-Rd1e198">prima <title>ad corinthios</title> viii</ref> quod <quote xml:id="ran7ae-d1e93-Qd1e204" ana="#Icor8_7">non omnium est scientia</quote> scilicet theologiae 
+          <lb ed="#L"/>dicit etiam <name>augustinus</name> xiiiio <title>de trinitate</title> quod <quote xml:id="ran7ae-d1e93-Qd1e216" ana="#Augustine_deTrinitate_14_1_3_b">huic scientia tribuitur id tantummodo quo fi<lb ed="#L"/>des 
+          saluberrima gignitur nutritur defenditur roboratur</quote>
+        </p>
+        <p xml:id="ran7ae-d1e93-d1e222">
+          Item doc<lb ed="#L"/>trina 
+          theologiae est nobilissima inter omnes ex quo videtur quod veritas scientiae quae 
+          <lb ed="#L"/>maxime facit ad nobilitatem doctrinae non debeat sub trahi 
+          <lb ed="#L"/>sibi maxime cum theologia non sit opinio ex quo videtur quod sit scientia
+        </p>
+        <p xml:id="ran7ae-d1e93-d1e231">
+          <pc type="#pilcrow"/>Contra fides est scientia non se compatiuntur sed theologia de hiis quae sunt fi<lb ed="#L"/>dei 
+          ergo non est scientia <pc type="#punctus"/>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
